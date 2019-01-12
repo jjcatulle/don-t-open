@@ -28,6 +28,8 @@ node app.js
 
 #todo list:
 do more testing and improve it
-create basic UI using express for people who dont like the command prompt
+create basic UI using express for people who dont like the command prompt;
 
-//dm me on discord for more help
+once the script run smoothly make completely headless
+
+//dm me onfor more help

@@ -48,7 +48,7 @@ for (var i = 1; i < 2; i++) {
 
         await page.evaluate("document.querySelector('#product-addtocart-button').click()");
         await page.mouse.up();
-        console.log('added to cart');
+        console.log(timestamp('[HH:mm:ss:ms]') +'added to cart');
 
         await page.goto('https://www.consortium.co.uk/checkout/cart/');
         await page.mouse.up();
@@ -57,7 +57,7 @@ for (var i = 1; i < 2; i++) {
         await page.mouse.up();
         page
             .waitForSelector('#login-email')
-            .then(() => console.log(timestamp('[HH:mm:ss:ms]') + ' logging in'));
+            .then(() => console.log(timestamp('[HH:mm:ss:ms]') + ' logging in/checking out'));
 
         await page.type('#login-email', 'youremail@gmail.com')
         await page.type('#login-password', 'yourpassword123')

@@ -60,7 +60,7 @@ for (var i = 1; i < 2; i++) {
             .then(() => console.log(timestamp('[HH:mm:ss:ms]') + ' logging in'));
 
         await page.type('#login-email', 'youremail@gmail.com')
-        await page.type('#login-password', 'your password123')
+        await page.type('#login-password', 'yourpassword123')
         await page.evaluate("document.querySelector('body > div > div > section > div.wrapper > div > div.main-container.col1-layout > div > div > div.customer-account-login > div > div > div.left-login.columns.medium-6 > div > div > div.buttons-set > button > span > span > i').click()");
         await page.mouse.up();
         await pagwe.evaluate("document.querySelector('#shipping-method-buttons-container > button > span > span > i').click()")

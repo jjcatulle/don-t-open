@@ -1,5 +1,8 @@
 # don-t-open
 
+made some improvement, will release before next drop
+
+
 #Reuirements:
 must have or download node js
 
@@ -32,4 +35,4 @@ create basic UI using express for people who dont like the command prompt;
 
 once the script run smoothly make completely headless
 
-//dm me onfor more help
+//dm me on discord for more help: shoecops#6367
